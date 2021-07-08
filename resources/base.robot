@@ -17,7 +17,7 @@ Resource        actions/components.robot
 ***Keywords***
 ## Iniciar sessão de navegador
 Start Browser Session
-    New Browser      chromium       False
+    New Browser      chromium       True                ##False
     New Page         about:blank
 
 ## Gancho para que a suite de teste de cadastro_alunos possa começar com a sessão logado no admin
