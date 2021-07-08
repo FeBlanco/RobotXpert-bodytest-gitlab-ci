@@ -1,0 +1,7 @@
+
+
+
+  test:
+    stage: test
+    script:
+      - robot -d ./logs tests\
