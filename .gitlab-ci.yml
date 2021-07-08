@@ -1,5 +1,5 @@
 
-
+image: python
 
   test:
     stage: test
