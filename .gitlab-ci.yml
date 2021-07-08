@@ -4,4 +4,5 @@ image: python
   test:
     stage: test
     script:
+      - pip install -r requirements.txt
       - robot -d ./logs tests\
