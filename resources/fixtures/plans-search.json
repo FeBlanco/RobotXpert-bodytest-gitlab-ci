@@ -1,0 +1,22 @@
+{
+    
+        "word": "Plano",
+        "total": 3,
+        "plans": [
+            {
+                "title": "Plano Luffy",
+                "duration": 12,
+                "price": 100.00
+            },
+            {
+                "title": "Plano Zoro",
+                "duration": 12,
+                "price": 80.00
+            },
+            {
+                "title": "Plano Sanji",
+                "duration": 12,
+                "price": 70.00
+            }
+        ]
+}

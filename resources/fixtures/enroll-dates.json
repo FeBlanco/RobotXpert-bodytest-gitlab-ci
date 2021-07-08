@@ -1,0 +1,15 @@
+{
+    "students": {
+        "name": "John Connor",
+        "email": "john@skynet.com",
+        "age": 16,
+        "weight": 65,
+        "feet_tall": 1.75
+    },
+    "plans": {
+        "title": "Plano Black",
+        "duration": 12,
+        "price": 19.99
+    },
+    "days": 365
+}
