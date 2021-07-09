@@ -11,4 +11,4 @@ test:
   script:
     - pip install -r requirements.txt
     - rfbrowser init
-    - robot -d ./logs tests\
+    - robot -d ./logs -v headless:true -v browser:chromium tests\

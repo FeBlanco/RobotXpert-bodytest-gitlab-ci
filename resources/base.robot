@@ -17,7 +17,7 @@ Resource        actions/components.robot
 ***Keywords***
 ## Iniciar sessão de navegador
 Start Browser Session
-    New Browser      chromium       True                ##False
+    New Browser      ${browser}       ${headless}                ##False ou true
     New Page         about:blank
 
 ## Gancho para que a suite de teste de cadastro_alunos possa começar com a sessão logado no admin
@@ -49,3 +49,8 @@ Get JSON
     ${json_object}      Evaluate        json.loads($file)       json
 
     [return]            ${json_object}
+
+
+# forma em headless robot -d ./logs -v headless:true -v browser:chromium tests\
+
+# forma em assistida robot -d ./logs -v headless:false -v browser:chromium tests\
