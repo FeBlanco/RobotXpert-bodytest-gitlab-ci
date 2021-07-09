@@ -12,3 +12,7 @@ test:
     - pip install -r requirements.txt
     - rfbrowser init
     - robot -d ./logs -v headless:true -v browser:chromium tests\
+  artifacts:
+    when: always
+    paths:
+      - logs/*
